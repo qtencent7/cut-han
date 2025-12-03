@@ -163,7 +163,7 @@ export default function VideoEditor() {
     <div className="flex flex-col h-screen bg-zinc-950 text-white overflow-hidden">
        {/* Header */}
        <header className="h-14 border-b border-zinc-800 flex items-center px-6 justify-between bg-zinc-900 shrink-0">
-          <div className="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text text-transparent">Open Cut</div>
+          <div className="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text text-transparent">Cut-Han</div>
           <div className="flex gap-4">
              <Button type="primary" size="small" disabled={!videoSrc}>导出视频</Button>
           </div>
